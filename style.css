@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(28, 170, 236, 0.096);
+  }
+
+li {
+    font-size: 25px;
+    padding: 15px;
+}
+
+i {
+    width: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    padding: 30px;
+    border: 2px dotted rgba(0, 0, 255, 0.308);
+    border-radius: 7%;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+img:hover {
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+}
